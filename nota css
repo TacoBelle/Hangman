@@ -1,0 +1,10 @@
+- BOOTSTRAP
+
+- Container agrega padding al costado.
+- Si dentro del container se agrega row, este sacara el padding porque asume que se van a agregar columnas , las cuales tienen padding.
+- Todas las columnas en una row deben sumar a 12.
+- CONTAINER FLUID: los keywords dentro de las clases de columnas, aclaran breakpoints. Ej: .col-sm-9 significa que cuando el wdith > 768px, el container tendra 9 columnas. Si dijara "md"
+seria mayor a 9xx
+- CONTAINER: cuando se llegue al size especificado, el container tomara ese tamaño en pixels.
+
+NOTA: WIDTH AND HEIGHT THE CANVAS DEBE SER SETEADO EN HTML NO EN CSS SINO NO SE PUEDE SACAR EL ANTI ALIASING

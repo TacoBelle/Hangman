@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+    box-sizing:border-box;
+    font-size:15px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+
+
+
+/*
+#wrapper {
+    margin: 0 auto;
+    font-size:16px;
+
+}
+*/
+h2{
+    font-family: 'Chewy', cursive;
+    font-size: 4em;
+}
+h2, p{
+    text-align:center;
+}
+
+.align-left {
+    text-align:left;
+}
+
+.align-center{
+    text-align:center;
+}
+
+/*.content {
+    margin: 0 auto;
+    width: 80%;
+}
+*/
+.canvas{
+   /* width: 80%;
+    min-height: 400px;*/
+    background-color: #B2E6A8;
+    margin-top: 10px;
+
+}
+
+.row-margin {
+    margin-top: 3em;
+}
+
+.h3-margin{
+    margin:0 0 1em;
+    padding:0;
+}
+
+.col-md-4-margin{
+    margin-top: 0.5em;
+}
+
+.outline{
+    outline:none;
+}
+
+.input-style{
+    width: 5em;
+    height: 5em;
+    max-width: 80px;
+    max-height:80px;
+    font-size:3em;
+    border-color: #B7632C;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.input-margin{
+    margin: 0.5em auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.row-margin-reset{
+    margin:0;
+}
+.error{
+    background-color:darkred;
+    padding:1em;
+    font-size: 1.2em;
+     display:none;
+}
+
+.content-menu{
+    min-height: 500px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef6f53+0,ea634b+90,ed5638+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef6f53+0,ea634b+90,ed5638+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef6f53+92,ed5638+97,ed4f2f+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef6f53+92,e85a40+97,e85d45+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef6f53+92,e26753+97,e26956+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef6f53+92,e05e4a+97,e0614e+100 */
+    background: #ef6f53; /* Old browsers */
+    background: -webkit-linear-gradient(left, #ef6f53 97%,#EF6F53 97%,#F16040 100%);
+
+
+
+
+
+    z-index:10;
+
+    overflow:hidden;
+  /*  padding-right: 0;
+   margin-left:15px;*/
+
+
+}
+/****STYLES***/
+
+.content{
+    background-color: #FDDFCB;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #9C3B0E;
+    border-color: #732C0B;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover{
+    color: #9A4C28;
+    background-color: #F5F4F3;
+    border-color: #90370E;
+}
+
+header{
+    background-color: rgb(248, 226, 207);
+    border-color: rgb(255, 234, 220);
+    border-style: solid;
+    border-width: 5px;
+}
+
+.col-md-8-score{
+    background-color:#ef6f53;
+    background: -webkit-linear-gradient(bottom, #ef6f53 97%,#EF6F53 97%,#F16040 100%);
+     padding: 15px 0;
+}
+.col-md-4-filler{
+    background-color:#ef6f53;
+    padding: 30px 0;
+}
+
+.col-margin-top{
+    margin-top: 50px;
+}
+
+.dash{
+    display:inline-block;
+
+    transform:scale(3,2);
+    max-width: 320px;
+    max-height: 40px;
+    width:33.333%;
+    margin-top:20px;
+
+}
+
+.dash h3{
+    margin:0;
+}
+p{
+    display:inline-block;
+}

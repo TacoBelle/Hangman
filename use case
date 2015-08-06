@@ -1,0 +1,53 @@
+
+Ahorcado.
+
+//Actor se basa en roles mas que en eprsonas/objetos. En este caso se hicieron dos roles para la AI: en una es un jugador y en otra es el Juego. En el UML grafico no se representa porque el AI NO es externo, por lo que no puede ser un actor.
+
+USE CASE Description
+
+1. Un jugador genera una palabra aleatoria para que otro jugador adivine ingresando letras. El otro jugador verificara si la letra esta incluida en la palabra  o no. Una vez que se ingresen todas las letras, se adivinara la palabra y el jugador gana. Si se ingresa mas de 3 letras erroneas, el jugador pierde y el otro jugador gana
+
+
+
+
+Triggers (lo que pasa antes de que comience el juego)
+
+1. El jugador apreta el boton de "comenzar"
+
+Actors
+
+1. El jugador que debe adivinar la palabra
+2. El jugador que debe generar la palabra
+3. Palabra (???)
+4. Juego (externo a todo)
+
+
+Preconditions
+
+1. Un jugador
+2. Una palabra
+3. El jugador debe tener mas de 0 vidas.
+
+
+Goals
+
+1. Un jugador gana y el otro pierde
+
+
+Not Available (que pasa si algo sale mal?)
+
+
+1. Failed conclusions, extensions (Alternatives)
+
+
+Steps of execution
+
+
+1. Un jugador (AI) genera una palabra aleatoria
+2. Se muestra mediante guiones que representan cada una de las letras en dicha palabra
+3. Un jugador ingresa una letra que podria estar incluida en la palabra
+4. Un jugador (AI) verifica si esta letra esta incluida 
+5. Juego provee resultados: 
+	a. Si esta incluida, se completa la letra en espacio de guion, el jugador gana puntos
+	b. Si no esta incluida, el jugador pierde una vida 
+6. 

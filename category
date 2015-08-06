@@ -1,0 +1,21 @@
+
+var  categoryList = {};
+categoryList.subjects = {
+      sub1:["gato", "perro"],
+      sub2 :["Buenos Aires", "La Plata"],
+      sub3 : ["Inception", "Freddy"]
+};
+
+
+document.querySelector('#categorias').addEventListener("click", getSubject, false);
+
+function getSubject(e) {
+      var a = e.toElement.alt;
+      var b = a[Math.floor(Math.random() * a.length)];
+      console.log(b);
+      return b;
+
+
+
+}
+
